@@ -1,0 +1,378 @@
+{
+	"name": "Hoja de eventos 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 418560168376122
+				}
+			],
+			"actions": [],
+			"sid": 542885424147451
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite5",
+					"sid": 138203656983378,
+					"parameters": {
+						"object": "Sprite9"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite5",
+					"sid": 875953932896835,
+					"parameters": {
+						"x": "830",
+						"y": "230"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Sprite5",
+					"sid": 775329701739778,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 735484474302036
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite5",
+					"sid": 924552274518063,
+					"parameters": {
+						"object": "Sprite8"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "Sprite5",
+					"sid": 225621983116670,
+					"parameters": {
+						"mode": "enable",
+						"effect": "\"agua\""
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Sprite5",
+					"sid": 206246986860249,
+					"parameters": {
+						"x": "830",
+						"y": "230"
+					}
+				}
+			],
+			"sid": 117738815548783
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite5",
+					"sid": 929811903669136,
+					"parameters": {
+						"object": "box7186750_"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "box7186750_",
+					"sid": 624187459147639,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 514691696109088
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite5",
+					"sid": 869082306343951,
+					"parameters": {
+						"object": "screen1315650_"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto3",
+					"sid": 751739143669703,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto4",
+					"sid": 885640684107509,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "Sprite5",
+					"sid": 985000577134981,
+					"parameters": {
+						"mode": "disable",
+						"effect": "\"agua\""
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite5",
+					"sid": 993127554922783,
+					"behaviorType": "Girar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "rainbow2092942_",
+					"sid": 717724603450353,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "fruit1222438_",
+					"sid": 851835944940430,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "water2748695_",
+					"sid": 210329849006136,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 169848984590065
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite5",
+					"sid": 276405223649726,
+					"parameters": {
+						"object": "Sprite11"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "Sprite5",
+					"sid": 843973821608296,
+					"parameters": {
+						"mode": "enable",
+						"effect": "\"agua\""
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Sprite5",
+					"sid": 915344347446946,
+					"parameters": {
+						"x": "830",
+						"y": "230"
+					}
+				}
+			],
+			"sid": 578762636415676
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite5",
+					"sid": 102042195533377,
+					"parameters": {
+						"object": "Sprite10"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite5",
+					"sid": 233330691932196,
+					"parameters": {
+						"x": "830",
+						"y": "230"
+					}
+				}
+			],
+			"sid": 828554420802344
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón",
+					"sid": 325788039703593
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto5",
+					"sid": 821967897339855,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 668845692231779
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite5",
+					"sid": 280675803099026,
+					"parameters": {
+						"object": "Sprite7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite5",
+					"sid": 173835889053559,
+					"parameters": {
+						"x": "830",
+						"y": "230"
+					}
+				}
+			],
+			"sid": 518400001080565
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite5",
+					"sid": 105191489115665,
+					"parameters": {
+						"object": "Sprite12"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite5",
+					"sid": 310032093689449,
+					"parameters": {
+						"x": "830",
+						"y": "230"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Sprite5",
+					"sid": 225286836907055,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 402921022823638
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite5",
+					"sid": 243624937935952,
+					"parameters": {
+						"object": "Sprite13"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite5",
+					"sid": 309814626919401,
+					"parameters": {
+						"x": "830",
+						"y": "230"
+					}
+				}
+			],
+			"sid": 295439075990943
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 569230729651290,
+					"parameters": {
+						"interval-seconds": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "png2702691_",
+					"sid": 937424997355123,
+					"parameters": {
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "start-animation",
+					"objectClass": "phone5749753_",
+					"sid": 253827453607811,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 530002645664705
+		}
+	],
+	"sid": 117115862790603
+}

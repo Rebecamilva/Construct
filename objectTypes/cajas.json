@@ -1,0 +1,17 @@
+{
+	"name": "cajas",
+	"plugin-id": "Text",
+	"sid": 217369633314796,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "cajas",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 302787825687825
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}
