@@ -1,0 +1,55 @@
+{
+	"name": "Sprite4",
+	"plugin-id": "Sprite",
+	"sid": 274283824906056,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "TileMovement",
+			"name": "MovimientoEnCuadrícula",
+			"sid": 508415029322466
+		},
+		{
+			"behaviorId": "TileMovement",
+			"name": "MovimientoEnCuadrícula2",
+			"sid": 655308563983978
+		},
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direcciones",
+			"sid": 793124856636046
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 3074388,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 622156547794082,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

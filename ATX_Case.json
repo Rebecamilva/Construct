@@ -1,0 +1,51 @@
+{
+	"name": "ATX_Case",
+	"plugin-id": "Sprite",
+	"sid": 761713563303697,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1600,
+						"height": 1600,
+						"originX": 0.206875,
+						"originY": 0.5625,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 6138873,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Punto imagen 1",
+								"x": 0.311875,
+								"y": 0.26
+							},
+							{
+								"name": "Punto imagen 2",
+								"x": 0.408125,
+								"y": 0.46
+							}
+						],
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 266859069923349,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
